@@ -1,0 +1,5 @@
+# Build output
+dist/
+
+# Editor settings
+.vscode/
