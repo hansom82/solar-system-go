@@ -42,5 +42,9 @@ env GOOS=darwin  GOARCH=arm64 go build -o solar-system-mac .
 ## Заметки
 
 - В режиме реальных размеров (`M`) Солнце уменьшено условно: при настоящем масштабе оно покрыло бы орбиту Меркурия, т.к. расстояния между орбитами стилизованы.
-- Текстуры: [Solar System Scope](https://www.solarsystemscope.com/textures/) (CC BY 4.0).
 - При старте в консоль выводится таблица сверки физики с NASA (закон Кеплера III, периоды, наклоны).
+
+## Лицензия
+
+- Код проекта — [MIT](LICENSE) (c) 2026 Dmitry Gilev.
+- Текстуры в `textures/` — не MIT: предоставлены [Solar System Scope](https://www.solarsystemscope.com/textures/) под CC BY 4.0 (основаны на данных NASA). При переиспользовании требуется атрибуция: «Planetary textures by Solar System Scope (solarsystemscope.com), CC BY 4.0».
